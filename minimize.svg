@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+<defs><linearGradient id="rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a89a84" stop-opacity="1"/><stop offset="0.5" stop-color="#5e3d30" stop-opacity="1"/><stop offset="1" stop-color="#2e1d18" stop-opacity="1"/></linearGradient><radialGradient id="well" cx="0.5" cy="0.4" r="0.6"><stop offset="0" stop-color="#1f100e" stop-opacity="1"/><stop offset="1" stop-color="#080505" stop-opacity="1"/></radialGradient><radialGradient id="wellHot" cx="0.5" cy="0.5" r="0.6"><stop offset="0" stop-color="#4e120d" stop-opacity="1"/><stop offset="1" stop-color="#170807" stop-opacity="1"/></radialGradient><radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#6e1a13" stop-opacity="0.9"/><stop offset="0.55" stop-color="#6e1a13" stop-opacity="0.35"/><stop offset="1" stop-color="#6e1a13" stop-opacity="0"/></radialGradient></defs>
+<g id="active-center">
+<rect x="0" y="0" width="24" height="24" fill="#000" opacity="0"/>
+<path d="M12.0,1.5 L22.5,12.0 L12.0,22.5 L1.5,12.0 Z" fill="url(#well)" stroke="url(#rim)" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#6e1a13" stroke-width="4.2" opacity="0.22"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#6e1a13" stroke-width="2.8" opacity="0.38"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#9c8f7c" stroke-width="1.5"/>
+</g>
+<g id="hover-center">
+<rect x="0" y="0" width="24" height="24" fill="#000" opacity="0"/>
+<circle cx="12.0" cy="12.0" r="12.0" fill="url(#halo)" opacity="0.5"/>
+<path d="M12.0,1.5 L22.5,12.0 L12.0,22.5 L1.5,12.0 Z" fill="url(#well)" stroke="#a89a84" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#963724" stroke-width="4.2" opacity="0.22"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#963724" stroke-width="2.8" opacity="0.38"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#d2c3a8" stroke-width="1.5"/>
+</g>
+<g id="pressed-center">
+<rect x="0" y="0" width="24" height="24" fill="#000" opacity="0"/>
+<circle cx="12.0" cy="12.0" r="12.0" fill="url(#halo)" opacity="0.9"/>
+<path d="M12.0,1.5 L22.5,12.0 L12.0,22.5 L1.5,12.0 Z" fill="url(#wellHot)" stroke="#6e1a13" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#6e1a13" stroke-width="4.2" opacity="0.22"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#6e1a13" stroke-width="2.8" opacity="0.38"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#c2633c" stroke-width="1.5"/>
+</g>
+<g id="inactive-center">
+<rect x="0" y="0" width="24" height="24" fill="#000" opacity="0"/>
+<path d="M12.0,1.5 L22.5,12.0 L12.0,22.5 L1.5,12.0 Z" fill="#141210" stroke="#383533" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#4e4944" stroke-width="1.5"/>
+</g>
+<g id="hover-inactive-center">
+<rect x="0" y="0" width="24" height="24" fill="#000" opacity="0"/>
+<circle cx="12.0" cy="12.0" r="12.0" fill="url(#halo)" opacity="0.3"/>
+<path d="M12.0,1.5 L22.5,12.0 L12.0,22.5 L1.5,12.0 Z" fill="url(#well)" stroke="#5e3d30" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#963724" stroke-width="4.2" opacity="0.22"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#963724" stroke-width="2.8" opacity="0.38"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#c9bca6" stroke-width="1.5"/>
+</g>
+<g id="pressed-inactive-center">
+<rect x="0" y="0" width="24" height="24" fill="#000" opacity="0"/>
+<circle cx="12.0" cy="12.0" r="12.0" fill="url(#halo)" opacity="0.6"/>
+<path d="M12.0,1.5 L22.5,12.0 L12.0,22.5 L1.5,12.0 Z" fill="url(#wellHot)" stroke="#963724" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#c2633c" stroke-width="1.5"/>
+</g>
+<g id="deactivated-center">
+<rect x="0" y="0" width="24" height="24" fill="#000" opacity="0"/>
+<path d="M12.0,1.5 L22.5,12.0 L12.0,22.5 L1.5,12.0 Z" fill="#12100e" stroke="#1d1c1b" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#383533" stroke-width="1.5"/>
+</g>
+<g id="deactivated-inactive-center">
+<rect x="0" y="0" width="24" height="24" fill="#000" opacity="0"/>
+<path d="M12.0,1.5 L22.5,12.0 L12.0,22.5 L1.5,12.0 Z" fill="#12100e" stroke="#1d1c1b" stroke-width="1.1" stroke-linejoin="round"/>
+<path d="M7.5,14.5 L16.5,14.5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#352e26" stroke-width="1.5"/>
+</g>
+</svg>

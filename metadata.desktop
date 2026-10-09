@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=DaedricMorrowind
+Comment=Near-black oxblood shrine frame: dim bronze hairlines, a faint red seam under the title, diamond corner studs, soft shadow, softly glowing diamond buttons.
+Type=Service
+X-KDE-ServiceTypes=AuroraeTheme
+X-KDE-Library=aurorae
+X-KDE-Aurorae-Corner-Radius=0
+X-KDE-PluginInfo-Author=splicer scorn (voidrane)
+X-KDE-PluginInfo-Version=2.0
+X-KDE-PluginInfo-License=GPL-3.0-or-later
+X-KDE-PluginInfo-Website=https://github.com/numbpill3d/daedric-morrowind-aurorae
