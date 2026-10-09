@@ -2,7 +2,7 @@
 
 An Aurorae theme for KWin on Plasma 6, in dark reds, browns and ash greys.
 
-![desktop](screenshots/desktop.png)
+![desktop](screenshots/desktop.jpg)
 
 ## What you get
 
@@ -14,11 +14,11 @@ An Aurorae theme for KWin on Plasma 6, in dark reds, browns and ash greys.
   on hover and close fills blood red. State changes cross-fade.
 - **Maximized windows:** the same bar and seam, without the frame.
 
-![window](screenshots/window.png)
+![window](screenshots/window.jpg)
 
 Button states, top to bottom: normal, hover, pressed, inactive.
 
-![buttons](screenshots/buttons.png)
+![buttons](screenshots/buttons.jpg)
 
 ## Requirements
 
